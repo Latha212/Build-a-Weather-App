@@ -1,0 +1,103 @@
+/*Total body sizes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*background color*/
+body{
+    background: linear-gradient(to right,#36d1dc,red);
+      /* colot left to right go*/
+}
+/*Box div tag styles  */
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin:0 auto; /*auto means horizontal ga center lo vosthundhi*/
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+/* title styles(Weather app)name */
+.container .title{
+    padding: 10px 0;
+    font-size: 40px;
+    text-align: center;
+}
+/*input box styles*/
+.container .input{
+    text-align: center;
+    margin: 10px 0;
+}
+/* input box names styles it means search locations names*/
+.container #location-input{
+    background-color: white;
+    border: 1.5px solid rgba(0, 0,0, 0);
+    outline: none;
+    height: 38px;
+    padding: 8px 10px;
+    width: 60%;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+/* place holder comes input box it is dark shadow*/
+.container #location-input:focus{
+    box-shadow: 0px 0px 3px #015b7e;
+}
+/*get button styles*/
+.container .input #btn{
+    width: 20%;
+    background-color: #015b7e;
+    color: white;
+    padding: 7px 10px;
+    font-size: 16px;
+    outline: none;
+    border: #015b7e;
+    position: relative;
+    left: -5px;
+    border-radius: 0 5px 5px 0;
+    height: 39px;
+    cursor: pointer;
+}
+/*move the cursor on the get button is comes shadow*/
+.container .input #btn:hover,.container .input #btn:active{
+    background-color: #015b71;
+    box-shadow: 0px 0px 2px #015b7e;
+}
+/*image styles*/
+img{
+    display: block; /*image inline so use block*/
+    width: 100px;
+    margin:0 auto; /*center*/
+}
+/*it is prasent in info class means details of the temprature image */
+/* that class color*/
+.info{
+    color: #293251;
+}
+/* tempareture styles*/
+.temp{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+/* celsous styles*/
+#c{
+    font-size: 30px;
+    margin-left: 10px;
+}
+/*weather names cloudy or normal styles */
+#weather-desc{
+    font-size: 25px;
+    text-align: center;
+    padding: 8px;
+    font-weight:600px;
+}
+/* location styles*/
+#location{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
